@@ -1,53 +1,99 @@
-# Depression-Data-Analysis
+# 🧠 Chronic Depression Data Analysis
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![SQL](https://img.shields.io/badge/SQL-MySQL-orange)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Dataset](https://img.shields.io/badge/Dataset-400K%2B%20records-blueviolet)
 
-## Introduction
-This README provides a comprehensive summary of the data analysis performed on a dataset related to various factors that may contribute to depression. The dataset, named depression_data, includes a range of variables such as age, marital status, education level, lifestyle habits (e.g., smoking, physical activity, alcohol consumption), medical history, and income levels. The goal of this analysis is to uncover insights, correlations, and patterns that could help in understanding the factors influencing mental health, particularly depression, and to identify key risk factors and trends within the dataset.
-
-**Tools:** SQL, Python, Power BI  
+**Tools:** SQL • Python • Power BI  
 **Dataset Size:** 400K+ records  
-**Focus:** Risk factor analysis and interactive dashboard
+**Objective:** Identify key depression risk drivers and enable data-driven insights
+
+---
+
+## 📌 Overview
+
+This project presents an end-to-end exploratory data analysis of factors associated with chronic depression risk. The dataset (`depression_data`) contains demographic, lifestyle, and medical attributes including age, marital status, education level, smoking habits, physical activity, alcohol consumption, medical history, and income levels.
+
+The goal of this analysis is to uncover meaningful patterns, correlations, and risk indicators that support data-driven understanding of mental health trends and potential intervention strategies.
+
+---
+
+## 📊 Dashboard Preview
 
 ![Power BI Dashboard](assets/dashboard.png)
 
-## Key Analysis and Insights
-Age and Income Relationship:
-The average age and income are calculated for different age groups to explore the relationship between these two variables.
+---
+
+## 📁 Project Structure
+.
+├── assets/ # Dashboard images
+├── depression_data.csv # Cleaned dataset
+├── depression_data_analysis.sql # SQL queries
+├── depression.pbix # Power BI dashboard
+└── README.md
 
 
-## Marital Status and Income:
-The average income is analyzed for different marital statuses to understand how marital status might influence income levels.
+---
 
+## 🔍 Key Analysis & Insights
 
-## Smoking Status and Physical Activity Level:
-A count of records is generated for different combinations of smoking status and physical activity levels to identify any notable patterns.
+### Age and Income Relationship
+Calculated average age and income across age groups to examine demographic income patterns.
 
-## Employment Status and Income:
-The average income is analyzed across different employment statuses to understand the income distribution among employed and unemployed individuals.
+### Marital Status and Income
+Analyzed income distribution by marital status to identify socio-economic variations.
 
-## Chronic Medical Conditions:
-A count of records with chronic medical conditions is generated to understand the prevalence of such conditions in the dataset.
+### Smoking Status vs Physical Activity
+Evaluated record distribution across smoking status and activity levels to detect lifestyle risk patterns.
 
-## Physical Activity Level and Sleep Patterns:
-The relationship between physical activity level and sleep patterns is explored using joins to identify any associations.
+### Employment Status and Income
+Compared average income between employed and unemployed populations.
 
-## Dietary Habits and Chronic Medical Conditions:
-The relationship between dietary habits and chronic medical conditions is analyzed to see how diet may be linked to chronic health issues.
+### Chronic Medical Conditions
+Measured prevalence of chronic medical conditions within the dataset.
 
-## Lifestyle Risk Factors:
-A lifestyle risk factor column is added to classify individuals based on their smoking status, alcohol consumption, and physical activity levels.
+### Physical Activity and Sleep Patterns
+Explored associations between activity levels and sleep behavior using relational joins.
 
-## Family Health Risk:
-A family health risk column is introduced, categorizing individuals based on their family history of depression and presence of chronic medical conditions.
+### Dietary Habits and Chronic Conditions
+Assessed how dietary patterns correlate with chronic health issues.
 
-## Age Group with Most Smokers:
-The age group with the highest number of current smokers is identified.
+### Lifestyle Risk Segmentation
+Engineered a **Lifestyle Risk Factor** feature based on smoking, alcohol consumption, and physical activity.
 
-## Mental Illness and Substance Abuse:
-The total number of individuals with both a history of mental illness and substance abuse is calculated.
+### Family Health Risk Indicator
+Created a **Family Health Risk** variable using family depression history and chronic condition presence.
 
-## Correlation Between Income and Mental Illness:
-A correlation analysis is performed between income and history of mental illness, revealing a weak negative correlation, suggesting low dependence.
+### Age Group with Highest Smokers
+Identified the age segment with the maximum number of current smokers.
 
+### Mental Illness and Substance Abuse
+Computed overlap between mental illness history and substance abuse indicators.
 
-# Conclusion
-This data analysis provides valuable insights into the factors associated with depression, highlighting key relationships and patterns that can be useful for further research and intervention strategies. The SQL queries used in this analysis demonstrate how complex data can be explored and understood through relational database techniques.
+### Income vs Mental Illness Correlation
+Performed correlation analysis revealing a weak negative relationship, indicating low dependency between income and mental illness history.
+
+---
+
+## ⚙️ How to Use
+
+1. Execute `depression_data_analysis.sql` in MySQL to reproduce the analysis  
+2. Open `depression.pbix` using Power BI Desktop  
+3. Use interactive filters to explore risk segments and insights  
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates how SQL-driven exploratory analysis combined with interactive Power BI visualization can transform large-scale health data into actionable insights. The findings highlight key demographic and lifestyle patterns associated with depression risk and showcase practical data analytics techniques applicable to real-world decision-making.
+
+---
+
+## 👤 Author
+
+**Debabrata Debnath**  
+B.Tech — Computer Science & Business Systems  
+Techno Main Salt Lake
+
+---
