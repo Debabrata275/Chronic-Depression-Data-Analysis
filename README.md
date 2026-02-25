@@ -26,12 +26,15 @@ The goal of this analysis is to uncover meaningful patterns, correlations, and r
 ---
 
 ## 📁 Project Structure
+
+```
 .
-├── assets/ # Dashboard images
-├── depression_data.csv # Cleaned dataset
-├── depression_data_analysis.sql # SQL queries
-├── depression.pbix # Power BI dashboard
+├── assets/                        # Dashboard images
+├── depression_data.csv            # Cleaned dataset
+├── depression_data_analysis.sql   # SQL queries
+├── depression.pbix                # Power BI dashboard
 └── README.md
+```
 
 
 ---
